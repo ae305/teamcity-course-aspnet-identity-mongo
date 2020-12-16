@@ -1,5 +1,5 @@
 ﻿namespace Tests
-{
+{shit
 	using AspNet.Identity.MongoDB;
 	using MongoDB.Bson;
 	using NUnit.Framework;
