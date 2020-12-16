@@ -1,5 +1,5 @@
 ﻿namespace Tests
-{shit
+{
 	using AspNet.Identity.MongoDB;
 	using MongoDB.Bson;
 	using NUnit.Framework;
@@ -7,7 +7,7 @@
 	[TestFixture]
 	public class IdentityRoleTests : AssertionHelper
 	{
-		[Test]
+		[Test] 
 		public void ToBsonDocument_IdAssigned_MapsToBsonObjectId()
 		{
 			var role = new IdentityRole();
